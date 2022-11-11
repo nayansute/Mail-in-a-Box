@@ -275,7 +275,7 @@ class SMTP:
         if code != 250:
             raise Exception('Mail not sent successfully! Please try again')
 
-    # <-----------------------------------------------Utils----------------------------------------------------->
+    # <---------------------------------------------Utils--------------------------------------------------->
     ''' Utility function to send encoded message to smtp server'''
 
     def __send_encoded_msg(self, message):
